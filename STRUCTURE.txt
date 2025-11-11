@@ -1,0 +1,80 @@
+Evalux Website - File Structure Summary
+===========================================
+
+Total Files: 136
+
+Main Files:
+-----------
+- index.html (56 KB) - Main landing page
+- README.md - Documentation
+- TESTING_NOTES.md - Testing results
+
+JavaScript Files (15):
+----------------------
+- polyfills-42372ed130431b0a.js
+- webpack-675bfd72a9c2e2bc.js
+- framework-a4ddb9b21624b39b.js
+- main-dd54e9cbd889bea9.js
+- _app-d9d0bbc93d8d55d9.js
+- 94726e6d-4b74fe89a6fbd8e7.js
+- 335-6e31181c4472ed03.js
+- 7-780ea5e5fb2a6f10.js
+- 54-1b9bbdd5d2b204f9.js
+- index-89bd5f5f99b6e1f5.js
+- _buildManifest.js
+- _ssgManifest.js
+- js.js
+- js-1.js
+- js-2.js
+
+CSS Files (2):
+--------------
+- aefe317ece28437c.css
+- all.min.css (Font Awesome)
+
+Font Files (28):
+----------------
+- Arial family: ARIAL.woff, ARIALBD.woff, ARIBLK.woff, ArialMdm.woff
+- Product Sans: ProductSans-Regular (eot, woff, woff2, ttf)
+- PP Neue Montreal: ppneuemontreal-bold/book/medium/thin.woff
+- Inter: Inter-VariableFont_slnt,wght.ttf
+- Font Awesome: fa-brands-400, fa-regular-400, fa-solid-900 (eot, ttf, woff, woff2)
+- Slick: slick (eot, ttf, woff)
+- Next.js fonts: Various woff2 files
+
+Image Files (60+):
+------------------
+SVG Icons: 20+ files (logos, icons, decorative elements)
+PNG Images: 30+ files (screenshots, icons, backgrounds)
+WEBP Images: 5 files (optimized images - bep20, bitcoin, erc20, trc20, upi, certificates)
+JPG Images: 2 files (csvdzv.jpg, footer-img.jpg)
+GIF: ajax-loader.gif
+ICO: favicon.ico
+
+Video Files (1):
+----------------
+- banner.mp4 (hero section background)
+
+Text Files (2):
+---------------
+- tr.txt
+- tr-1.txt
+
+Directory Structure:
+--------------------
+evalux-website/
+├── index.html
+├── All JS, CSS, fonts, images (root level for easy access)
+├── _next/
+│   └── static/
+│       ├── chunks/ (JavaScript files)
+│       ├── css/ (Stylesheets)
+│       └── media/ (Fonts, images, videos)
+├── public/ (empty, reserved)
+├── fonts/ (empty, reserved)
+├── images/ (empty, reserved)
+├── css/ (empty, reserved)
+└── js/ (empty, reserved)
+
+Note: Assets are duplicated in both root and _next/static/ directories
+to ensure compatibility with various path references in the HTML.
